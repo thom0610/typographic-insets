@@ -120,4 +120,5 @@ blockquote {
   border-bottom: 3px solid #333;
   font-size: 1.5rem;
   width: 300px;
+  text-align: right;
 }

@@ -87,6 +87,7 @@ footer {
 */
 
 /* Write your CSS here */
+
 p:first-child::first-letter {
   float: left;
   background-color: #666;
@@ -94,4 +95,29 @@ p:first-child::first-letter {
   font-size: 5rem;
   padding: .4em .2em;
   font-style: normal;
+  margin-right: .5rem;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+}
+
+figure {
+  float: right;
+  width: 300px;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  padding: 6px 0;
+}
+
+figcaption {
+  line-height: 1.5rem;
+  font-size: .875rem;
+  font-style: italic;
+}
+
+blockquote {
+  float: left;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  font-size: 1.5rem;
+  width: 300px;
 }

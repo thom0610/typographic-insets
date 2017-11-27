@@ -96,6 +96,7 @@ footer {
   padding: .2em;
   font-style: normal;
   margin-right: .5rem;
+  margin-bottom: .5rem;
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
 }
@@ -125,4 +126,6 @@ blockquote {
   text-align: right;
   margin-left: -180px;
   color: #666;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
 }
